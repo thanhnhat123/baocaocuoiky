@@ -1,0 +1,274 @@
+/* mobile */
+@media  (min-width: 320px) and (max-width: 480px ){
+    .start{
+        padding-bottom: 30px;
+    }
+
+    .header{
+        padding: 5px 8px;
+        position: relative;
+        z-index: 9999;
+    }
+    .header__nav__links{
+        display: none;
+    }
+    .header__about{
+        margin: unset;
+        padding: unset;
+        gap: 10px;
+
+    }
+    /* .header__brand{
+        position: fixed;
+        z-index: 9999;
+    } */
+    .header__about .header__title{
+        font-size: 16px;
+        line-height: unset;
+    }
+    .header__about .header__subtitle{
+        font-size: 10px;
+        line-height: unset;
+
+    }
+    .header__about .header__more a{
+        font-size: 13px;
+        line-height: unset;
+
+    }
+    .toggle{
+        display: block;
+        /* position: fixed;
+        z-index: 9999; */
+    }
+    .header__nav__links.active{
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-image: linear-gradient(to bottom, rgba(94, 94, 94, 0.6) 30%, rgba(0, 0, 0, 1) 100%),0.5;
+        text-align: right;
+        z-index: 9999;
+    }
+    .header__nav__links__item {
+        font-size: 13px;
+        line-height: unset;
+        width: 100%;
+        height: 100%;
+        padding: 0 8px;
+
+    }
+    .card__header .card1 .card__cardaside .card__cardfigure .figure--line{
+        width: 25px;
+    }
+    .main{
+        min-width: unset;
+    }
+    .card__header{
+        padding: unset;
+        margin: 0 8px;
+        gap: unset;
+    }
+    .card__header .card1{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: unset;
+    }
+    .card__header .card1 .card__image img{
+        max-width: 100%;
+    }
+    .card__header .card2 .card__cardimage2 img{
+        max-width: 100%;
+    }
+    .card__header .card1 .card__cardaside .card__cardfigure{
+        font-size: 10px;
+        line-height: unset;
+    }
+    .card__header .card1 .card__cardaside .card__cardcontent{
+        font-size: 13px;
+        line-height: unset;
+    }
+    .card__header .card1 .card__cardaside .card__cardabout{
+        font-size: 10px;
+        line-height: unset;
+    }
+    .card__header .card2{
+        display: flex;
+        flex-direction: column;
+        gap: unset;
+    }
+    .card__header .card2 .card__cardaside2 .card__cardfigure2{
+        font-size: 10px;
+        justify-content: unset;
+        line-height: unset;
+        margin-bottom: 5px;
+    }
+    .card__header .card2 .card__cardaside2 .card__cardcontent2{
+        font-size: 13px;
+        line-height: unset;
+        text-align: unset;
+        margin-bottom: 8px;
+
+    }
+    .card__header .card2 .card__cardaside2 .card__cardaubout2{
+        font-size: 10px;
+        line-height: unset;
+        text-align: unset;
+    }
+    .card__header .card2 .card__cardaside2{
+        height: unset;
+    }
+    .section3{
+        margin: 10px 0;
+        gap: unset;
+        padding: 0 8px;
+    }
+    .section3 .section3__list{
+        display: flex;
+        flex-direction: column;
+        gap: unset;
+    }
+    .section3 .section3__content{
+        font-size: 13px;
+        line-height: unset;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .section3 .section3__about .section3__about--item1{
+        font-size: 10px;
+        line-height: unset;
+    }
+    .section3 .section3__about .section3__about--item2{
+        font-size: 10px;
+        line-height: unset;
+        margin: 8px 0;
+    }
+    .section3 .section3__about .section3__about--item3 .section3__about--item3-text a{
+        font-size: 10px;
+    }
+    .section4 .section4__content{
+        font-size: 13px;
+    }
+    .section4 .mySwiper{
+        margin: 8px;
+        padding: unset;
+    }
+    .card__header .card2 .card__cardaside2 .card__cardfigure2 .figure--line{
+        width: 25px;
+    }
+    .section4 .swiper .swiper-wrapper .swiper-slide .img{
+        width: 100%;
+        height: auto;
+
+    }
+    .section4 .swiper .swiper-wrapper .swiper-slide .img >img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .text{
+        font-size: 13px;
+        line-height: unset;
+    }
+    .swiper-wrapper{
+        gap: unset;
+    }
+    .section5 .section5__content{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .section5 .swiper .swiper-slide .slide__figure .slide__figure--text{
+        font-size: 10px;
+        line-height: unset;
+    }
+    .section5 .swiper .swiper-slide .slide__content{
+        font-size: 13px;
+        line-height: unset;
+    }
+    .section5 .swiper{
+        margin: 8px;
+    }
+    .section5 .swiper .swiper-slide > img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .section5 .swiper .swiper-slide{
+        /* flex: unset !important; */
+        align-items: unset;
+    }
+    .section5 .swiper .swiper-slide .slide__figure .slide__figure--line{
+        width: 25px;
+    }
+    .fraction{
+        font-size: 13px;
+    }
+    /* .footer .footer__about{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding: 20px 8px;
+        
+    } */
+    .footer .footer__about {  display: grid;
+        /* grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; */
+        gap: 8px 20px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "footer__about--1 footer__about--1"
+          "footer__about--2 footer__about--4"
+          "footer__about--3 footer__about--5";
+      }
+      
+      .footer__about--1 { 
+        grid-area: footer__about--1; 
+        align-items: center;
+        justify-content: center;
+    }
+      
+      .footer__about--2 { grid-area: footer__about--2; }
+      
+      .footer__about--3 { grid-area: footer__about--3; }
+      
+      .footer__about--4 { grid-area: footer__about--4; }
+      
+      .footer__about--5 { 
+        grid-area: footer__about--5; 
+        width: 45%;
+        margin:  0 auto;
+    }
+      
+      
+    .footer .footer__about .footer__about--1 .about__text a{
+        font-size: 13px;
+        line-height: unset;
+    }
+    .footer .footer__about .about__text a {
+        font-size: 10px;
+        line-height: unset;
+    }
+    .footer .footer__about .footer__about--4{
+        gap: 5px;
+        justify-content: center;
+    }
+    .footer .footer__about .footer__about--5 .about__text a{
+        height: 30px;
+        justify-content: center;
+        padding: unset;
+    }
+    .footer .footer__about .footer__about--2, .footer .footer__about .footer__about--3{
+        gap: 15px;
+        text-align: center;
+    } 
+    .about--4--img{
+
+        
+    }
+}
+/* tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .start{
+        min-width: 1440px;
+    }
+} 
